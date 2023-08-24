@@ -22,6 +22,9 @@ class Names:
     def __setattr__(self, key, value):
         self.__dict__[key] = value
 
+def func():
+    pass
+
 
 if __name__ == '__main__':
     names = Names()
