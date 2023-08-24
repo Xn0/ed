@@ -22,6 +22,9 @@ class Names:
     def __setattr__(self, key, value):
         self.__dict__[key] = value
 
+def func1():
+    pass
+
 def func():
     pass
 
